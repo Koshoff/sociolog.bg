@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Navbar Styles */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* Card Styles */
+.card {
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+/* Button Styles */
+.btn {
+  border-radius: 0.25rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+}
+
+.btn-primary {
+  background-color: #4e73df;
+  border-color: #4e73df;
+}
+
+.btn-primary:hover {
+  background-color: #2e59d9;
+  border-color: #2653d4;
+}
+
+/* Form Styles */
+.form-control {
+  border-radius: 0.25rem;
+  border: 1px solid #d1d3e2;
+  padding: 0.75rem 1rem;
+}
+
+.form-control:focus {
+  border-color: #bac8f3;
+  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}
+
+/* Survey List Styles */
+.survey-list .card {
+  margin-bottom: 1.5rem;
+}
+
+/* Survey Detail Styles */
+.survey-detail .card {
+  margin-bottom: 1.5rem;
+}
+
+.answers .form-check {
+  margin-bottom: 0.75rem;
+}
+
+/* Create Survey Styles */
+.create-survey .card {
+  margin-bottom: 1.5rem;
+}
+
+.questions-section .card {
+  margin-bottom: 1.5rem;
+}
+
+.answers-section {
+  margin-top: 1rem;
+}
+
+/* Profile Styles */
+.profile .card {
+  margin-bottom: 1.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+  }
+} 
